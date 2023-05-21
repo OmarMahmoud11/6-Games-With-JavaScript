@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  /* background-color: rgba(0, 255, 255,0.1); */
+  /* width: 100vw; */
+  background-image: url('./im3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.table3{
+    
+    position: relative;
+    border-bottom: 1px solid;
+    margin-left: 1080px;
+    background-color: #bfbfbf;
+    width: 430px;
+    height: 50px;
+}
+.td{
+   text-align: center;
+   width: 75px;
+   font-size: 25px;
+}
+
+.alert {
+    display: none;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width: 250px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .d1{
+    display:inline-block;
+  }
+
+  /***********************************************************************************/
+  .game{
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+    font-weight: 500;
+}
+  .box{
+    display : flex;
+    flex-direction : row;
+  }
+  #container {
+    top: 30px;
+    outline:2px solid #000;
+    font-size: 0px;
+    margin-right: auto;
+    height:960px;
+    width:960px;
+    padding: 0;
+    border: none;
+  }
+  
+  
+  #rows{
+    position: relative;
+    outline:2px solid #000;
+    font-size: 5px;
+    margin-left: 700px;
+    height:960px;
+    width:50px;
+    padding: 0;
+    border: none;
+  }
+  .row{
+    /*line-height: ;*/
+    font-size: 40px;
+    text-align: center;
+    border:none ;
+    outline:1px solid #000;
+  }
+  
+  
+  #cols{
+    display : flex;
+      flex-direction : row;
+    position: relative;
+    outline:2px solid #000;
+    font-size: 5px;
+    margin-left: 750px;
+    height:50px;
+    width:960px;
+    padding: 0;
+    border: none;
+    margin-top: 350px;
+  }
+  .col{
+    font-size: 40px;
+    text-align: center;
+    border:none ;
+    outline:1px solid #000;
+  }
+  
+  
+  .grid {
+    line-height: 2;
+    text-align: center;
+    overflow-x: auto;
+    font-size: 60px;
+    outline:1px solid #000;
+    display:inline-block;
+    color: #000;
+  }

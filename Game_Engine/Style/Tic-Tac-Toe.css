@@ -1,0 +1,156 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* background-color: rgba(0, 255, 255,0.1); */
+    /* width: 100vw; */
+    background-image: url('./im5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.box{
+	display : flex;
+    flex-direction : row;
+	float: left;
+  
+	
+}
+#container {
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin-right: auto;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+	
+}
+
+
+#rows{
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 5px;
+	margin-left: 700px;
+	height:960px;
+	width:50px;
+	padding: 0;
+	background-color: rgb(107, 126, 8);
+	border: none;
+}
+.row{
+	font-size: 40px;
+	text-align: center;
+	border:none ;
+	outline:1px solid #000;
+	
+}
+
+
+#cols{
+	display : flex;
+    flex-direction : row;
+	position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 5px;
+	margin-left: 750px;
+	height:50px;
+	width:960px;
+	padding: 0;
+	border: none;
+	background-color: rgb(107, 126, 8);
+  margin-top: 300px;
+	
+}
+.col{
+	font-size: 40px;
+	text-align: center;
+	border:none ;
+	outline:1px solid #000;
+	background-color: rgb(107, 126, 8);
+
+}
+
+
+.grid {
+	overflow-x: auto;
+	font-size: 50px;
+	border:none ;
+	outline:1px solid #000;
+	display:inline-block;
+	
+}
+.in{
+	float: right;
+	margin-right: 70px;
+}
+#p1{
+	display: block;
+}
+#p2{
+	display: none;
+}
+.alert {
+    display: none;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width: 450px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .alert2 {
+    display: none;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    width: 450px;
+  }
+  
+  /* The close button */
+  .closebtn2 {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn2:hover {
+    color: black;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/checkers.css">
+</head>
+<body>
+    
+    <div class="cols" id="cols"></div>
+    <div display: flex;>
+    <div class="box" id="box">
+        <div id="rows" class="rows"></div>
+        <div id="container" class="container"></div>
+    </div>
+    <div class="in">
+    <div id="error" class="alert">
+        <span  class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        This input is not valid.
+    </div>
+    <h1 id="p1" style="color :blue; font-size: 100px;" >The player 1</h1>
+    <h1 id="p2" style="color:red; font-size: 100px;">The player 2</h1>
+</div>
+</div>
+   
+</body>
+<script type="module" src="Scripts/checkers.js"></script>
+</html>
